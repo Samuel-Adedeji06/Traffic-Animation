@@ -1,0 +1,234 @@
+* {
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    
+}
+.clouds {
+    width: 100%;
+    height: 250px;
+    position: relative;
+}
+.firsthouse {
+    bottom: 380px;
+    position: absolute;
+    height: 250px;
+    width: 250px;
+}
+.secondhouse {
+    bottom: 365px;
+    position: absolute;
+    left: 250px; 
+    height: 250px;
+    width: 300px;
+}
+.school {
+    bottom: 285px;
+    position: absolute;
+    height: 400px;
+    width: 350px;
+    left: 590px;
+}
+.thirdhouse {
+    position: absolute;
+    bottom: 225px;
+    left: 900px;
+    height: 550px;
+    width: 500px;
+}
+.grass {
+    border: 2px solid rgb(62, 211, 62);
+    background-color: rgb(62, 211, 62);
+    height: 20px;
+}
+.plane {
+    position: absolute;
+    height: 150px;
+    width: 250px;
+    right: 5px;
+    bottom: 480px;
+    animation: plane 1s ease-in-out 1s infinite forwards;
+    animation-direction: reverse;
+}
+@keyframes plane {
+    0% {
+        bottom: 480px;
+        left: 0%;
+        left: -250px;
+    }
+    100% {
+        bottom: 480px;
+        left: 100%;
+    }
+}
+.chopper {
+    position: absolute;
+    width: 220px;
+    height: 150px;
+    bottom: 400px;
+    animation: chopper 4s ease-in-out 1s infinite forwards;
+    animation-direction: reverse;    
+}
+@keyframes chopper {
+    0% {
+        bottom: 400px;
+        left: 0%;
+        left: -250px;
+    }
+    100% {
+        bottom: 400px;
+        left: 100%;
+    }
+}
+.human {
+    position: absolute;
+    width: 100px;
+    bottom: 360px;
+    animation: human 10s ease-in-out 1s infinite forwards;
+    animation-direction: reverse;
+}
+@keyframes human {
+    0% {
+        bottom: 360px;
+        right: 0%;
+        right: -200px;
+    }
+    100% {
+        bottom: 360px;
+        right: 100%;
+    }
+}
+.human1 {
+    position: absolute;
+    width: 100px;
+    right: 5px;
+    top: 180px;
+    animation: persons 15s ease-in-out 1s infinite forwards;
+    animation-direction: reverse;
+}
+@keyframes persons {
+    0% {
+        bottom: 480px;
+        left: 0%;
+        left: -250px;
+    }
+    100% {
+        bottom: 480px;
+        left: 100%;
+    }
+}
+.border {
+    border: 1px solid black;
+    background-color: grey;
+    display: flex;
+    height: 10px;
+    justify-content: space-around;
+    padding-top: 0px;
+}
+.road1 {
+    width: 1370px;
+    height: 160px;
+}
+.taxi {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    bottom: 250px;
+    animation: traffic 5s ease-in-out 1s infinite backwards;
+    animation-direction: reverse;
+    left: 20px;
+}
+@keyframes traffic {
+    0% {
+        bottom: 250px;
+        left: 0%;
+        left: -270px;
+    }
+    100% {
+        bottom: 250px;
+        /* left: 1150px; */
+        left: 100%;
+    }
+}
+.midroad {
+    border: 2px solid grey;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.548);
+}
+.traffic {
+    height: 300px;
+    width: 100px;
+    position: absolute;
+    bottom: 160px;
+}
+.traffic-light {
+    height: 300px;
+    width: 100px;
+    position: absolute;
+    bottom: 160px;
+    left: 1200px;
+}
+.street-light {
+    width: 120px;
+    height: 250px;
+    position: absolute;
+    bottom: 160px;
+    left: 400px;
+}
+.street-light2 {
+    width: 100px;
+    height: 250px;
+    position: absolute;
+    bottom: 160px;
+    left: 800px;
+}
+.street-light3 {
+    width: 100px;
+    height: 250px;
+    position: absolute;
+    bottom: 170px;
+    left: 600px;
+}
+.road2 {
+    width: 1370px;
+    height: 150px;
+}
+.human2 {
+    position: absolute;
+    width: 100px;
+    right: 5px;
+    top: 540px;
+    animation: person 12s ease-in-out 1s infinite forwards;
+    animation-direction: reverse;
+}
+@keyframes person {
+    0% {
+        bottom: 480px;
+        left: 0%;
+        left: -270px;
+    }
+    100% {
+        bottom: 480px;
+        left: 100%;
+    }
+}
+.taxi2 {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    animation: traffic2 4s ease-in-out 1s infinite backwards;
+    animation-direction: reverse;
+    right: 0px;
+}
+@keyframes traffic2 {
+    0% {
+        bottom: 40px;
+        right: 0%;
+        right: -250px;
+    }
+    100% {
+        bottom: 40px;
+        /* left: 1150px; */
+        right: 100%;
+    }
+}
